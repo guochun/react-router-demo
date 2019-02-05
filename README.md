@@ -40,3 +40,8 @@
 path 表示路由的匹配规则
 
 match: 通过 props.macth.params 获得动态路由的信息
+
+
+exact: 表示path和route完全相同的时候才会匹配成功
+
+<switch> 
