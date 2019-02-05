@@ -57,3 +57,6 @@ exact: 表示path和route完全相同的时候才会匹配成功
 
 ## react router4 新的思维
 
+- 一切皆组件
+
+- 动态路由离散式声明

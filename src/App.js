@@ -15,7 +15,10 @@ class App extends Component {
           <div>
             <Switch>
               <Route path="/contact" component={Contact} />
-              <Route path='/about' component={About} />
+              <Route path='/about/:user' render={(...props) => { 
+                  console.log(...props)
+                  return <About {...props}/>
+                }} />
               <Route path="/" component={Home} />
             </Switch>
           </div>
