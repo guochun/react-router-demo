@@ -45,3 +45,15 @@ match: 通过 props.macth.params 获得动态路由的信息
 exact: 表示path和route完全相同的时候才会匹配成功
 
 <switch> 
+
+## 渲染组件的三种方式
+
+1: 通过component 指定组件(本身为函数)的
+
+2: 通过render 渲染组件
+
+3: 通过children 渲染组件
+
+
+## react router4 新的思维
+
