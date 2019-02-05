@@ -20,3 +20,15 @@
 
 - react-router-native
 
+## <BrowserRouter >
+
+基于HTML5的内部history api (push state replace state)
+
+需要对web服务器额外的配置
+
+## <HashRouter>
+
+- 使用路由部分的hash部分作为路由信息
+
+- 兼容老版本的浏览器
+
